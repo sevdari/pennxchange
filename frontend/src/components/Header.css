@@ -1,0 +1,36 @@
+/**
+https://stackoverflow.com/questions/55476980/aligning-few-components-horizontally-in-react#:~:text=You%20can%20set%20display%3A%20flex,you%20want%20to%20horizontally%20align.
+https://www.html.am/html-codes/textboxes/textbox-color.cfm
+https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+https://css-tricks.com/snippets/css/complete-guide-grid/
+// push
+Hamburger Icon: <a href="https://www.flaticon.com/free-icons/hamburger" title="hamburger icons">Hamburger icons created by Lizel Arina - Flaticon</a>
+*/
+/** z-index: https://developer.mozilla.org/en-US/docs/Web/CSS/z-index */
+
+.header-options-parent {
+    display: grid;
+}
+
+.header-options {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    position: absolute;
+    z-index: 20;
+    margin-top: -30px;
+    margin-right: -4px;
+    justify-self: right;
+    width: 150px;
+    padding: 5px;
+}
+
+.options-class {
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    text-align: right;
+    text-decoration: none;
+    color: black;
+    justify-content: right;
+}

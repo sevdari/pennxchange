@@ -1,0 +1,30 @@
+/* https://www.simplilearn.com/tutorials/css-tutorial/css-background-image 
+https://www.w3schools.com/cssref/pr_background-image.php**/
+
+.home-page-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#homepage-image {
+    height: 400px;
+    width: 100%;
+}
+
+
+#popular-products-label {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-self: left;
+    margin-left: 90px;
+}
+
+.popular-products-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

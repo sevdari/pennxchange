@@ -1,0 +1,175 @@
+{
+  "user": [
+    {
+      "id": 12312312,
+      "username": "maryiam",
+      "password": "12345",
+      "pennId": 12312312,
+      "email": "maryam@gmail.com",
+      "picture": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80",
+      "wishlist": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 45645645,
+      "username": "quentin",
+      "password": "quentinpwd",
+      "pennId": 45645645,
+      "email": "quentin@gmail.com",
+      "picture": "https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1035&q=80",
+      "wishlist": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 78978978,
+      "username": "jason",
+      "password": "jasonpwd",
+      "pennId": 78978978,
+      "email": "jason@gmail.com",
+      "picture": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+      "wishlist": [
+        3
+      ]
+    },
+    {
+      "id": 23423423,
+      "username": "klejdi",
+      "password": "kledjipwd",
+      "pennId": 23423423,
+      "email": "kledji@gmail.com",
+      "picture": "https://images.unsplash.com/photo-1544435253-f0ead49638fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80",
+      "wishlist": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": 34534534,
+      "username": "candy",
+      "password": "candypwd",
+      "pennId": 34534534,
+      "email": "candy@gmail.com",
+      "picture": "https://images.unsplash.com/photo-1624561172888-ac93c696e10c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=989&q=80"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "productImage": [
+        "https://images.unsplash.com/photo-1581652973557-5d04ba3cc54c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      ],
+      "productName": "Fork Set",
+      "productPrice": 4.99,
+      "productDescription": "Set of forks",
+      "productCategory": "Kitchen",
+      "productPriceCategory": "Bid",
+      "productPostedDate": "2023-03-17T07:00:00Z",
+      "productCondition": "New",
+      "productSeller": 12312312
+    },
+    {
+      "id": 2,
+      "productImage": [
+        "https://images.unsplash.com/photo-1591456343293-8115760e73b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+      ],
+      "productName": "Eraser Set",
+      "productPrice": 4.99,
+      "productDescription": "Set of 10 erasers",
+      "productCategory": "Stationary",
+      "productPriceCategory": "Fixed Price",
+      "productCondition": "Used",
+      "productPostedDate": "2023-03-10T08:00:00Z",
+      "productSeller": 12312312
+    },
+    {
+      "id": 3,
+      "productImage": [
+        "https://images.unsplash.com/photo-1588912914017-923900a34710?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1838&q=80",
+        "https://images.unsplash.com/photo-1589998059171-988d887df646?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1776&q=80"
+      ],
+      "productName": "Textbook",
+      "productPrice": 23.99,
+      "productDescription": "CIS3500 textbook",
+      "productCategory": "Cleaning",
+      "productPriceCategory": "Fixed Price",
+      "productPostedDate": "2023-03-20T03:00:00Z",
+      "productCondition": "Slightly Used",
+      "productSeller": 12312312
+    }
+  ],
+  "review": [
+    {
+      "id": 1,
+      "buyerId": 12312312,
+      "sellerId": 34534534,
+      "rating": 5,
+      "content": "This is a safe seller!",
+      "time": "2023-03-16T03:00:00Z"
+    },
+    {
+      "id": 2,
+      "buyerId": 45645645,
+      "sellerId": 12312312,
+      "rating": 5,
+      "content": "The product was good quality!",
+      "time": "2023-03-18T03:00:00Z"
+    },
+    {
+      "id": 3,
+      "buyerId": 23423423,
+      "sellerId": 45645645,
+      "rating": 4,
+      "content": "Accurate product description",
+      "time": "2023-03-03T06:00:00Z"
+    }
+  ],
+  "message": [
+    {
+      "id": 1,
+      "sender": 1,
+      "receiver": 2,
+      "time": "2023-02-27T12:23:00Z",
+      "content": "Is this product available?"
+    },
+    {
+      "id": 2,
+      "sender": 2,
+      "receiver": 1,
+      "time": "2023-02-27T12:24:00Z",
+      "content": "What time should we schedule the pickup?"
+    },
+    {
+      "id": 3,
+      "sender": 1,
+      "receiver": 2,
+      "time": "2023-02-27T12:26:00Z",
+      "content": "Thanks for leaving the review!"
+    },
+    {
+      "id": 4,
+      "sender": 2,
+      "receiver": 1,
+      "time": "2023-02-27T12:26:00Z",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 5,
+      "sender": 1,
+      "receiver": 2,
+      "time": "2023-02-27T12:26:00Z",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "content": "hello",
+      "time": "2023-03-18T02:44:50.360Z",
+      "sender": 1,
+      "receiver": 2,
+      "id": 6
+    }
+  ]
+}

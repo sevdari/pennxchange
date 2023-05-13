@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Mansalva');
+@import url('https://fonts.googleapis.com/css?family=Marck+Script');
+
+#donate-img {
+    max-width: 70%;
+}
+
+#donate-container {
+    text-align: center;
+}
+
+#donate-image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.display-5 {
+    font-family: 'Mansalva';
+}
+
+.display-6 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-family: 'Marck Script';
+}
+
+#payment-info-div {
+    text-align: left;
+}
+
+p {
+    font-size: 110%;
+}

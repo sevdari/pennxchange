@@ -1,0 +1,36 @@
+/**
+ https://www.geeksforgeeks.org/css-text-formatting/
+ https://linuxhint.com/give-space-between-two-buttons-css/#:~:text=Most%20buttons%20are%20placed%20close,or%20the%20margin%2Dright%20property.
+ https://htmlcolorcodes.com/
+ https://www.w3schools.com/css/css_align.asp
+ https://stackoverflow.com/questions/32459646/removing-the-shadow-from-a-button
+ https://stackoverflow.com/questions/31839526/how-can-i-make-a-series-of-p-elements-display-horizontally
+ https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/
+*/
+
+#footer {
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerText {
+    color:black;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-color: white;
+    box-shadow: none;
+    text-shadow: none;
+    border-style: solid;
+    justify-self: center;
+    text-decoration: none;
+}

@@ -1,0 +1,29 @@
+.review-block-divider {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.p-review-time {
+    font-size: 90%;
+    color: #999;
+}
+
+/* These two buttons actually declared in their components
+   ModifyReview.js and DeleteReview.js */
+.modify-review-button {
+    color: #01195B; /* PennBlue */
+    border-color: #01195B;
+    margin-left: -10px;
+    margin-top: 15px;
+}
+
+.delete-review-button {
+    color: #9A0101; /* PennRed */
+    border-color: #9A0101;
+    margin-left: -10px;
+    margin-top: 15px;
+}
+
+.review-title-h3 {
+    margin-bottom: 25px;
+}

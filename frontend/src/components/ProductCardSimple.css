@@ -1,0 +1,25 @@
+.card-img-top {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.product-card-left-align {
+  text-align: left;
+}
+
+.product-card-bold {
+  font-weight: bold;
+}
+
+/* disable side effect of Link */
+.product-card-simple-link:link {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* give some margin for buttons */
+.card-simple-buttons-row {
+  margin-bottom: 10px;
+  padding-left: 0px;
+}

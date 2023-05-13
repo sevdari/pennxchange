@@ -1,0 +1,20 @@
+/* In ViewProduct: disable center-align text inherited from App.css */
+.view-product-no-align {
+    text-align: left;
+}
+
+#div-view-product-wrapper {
+    padding: 0px;
+}
+
+#similar-product-in-view-product {
+    border-top: 1px solid black;
+}
+
+.view-product-divider {
+    margin: 35px 0px 25px 0px;
+}
+
+#div-view-product-wrapper .btn{
+    border-style: solid;
+}

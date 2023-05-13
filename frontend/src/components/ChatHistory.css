@@ -1,0 +1,25 @@
+.chat-history img{
+  width: 50px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.chat-history{
+  padding: 10px;
+}
+
+.chat-history p{
+  background-color: #F2F2F2;
+  padding: 2px;
+  margin-top: 4px;
+}
+
+.chat-history p:hover{
+  background-color: #B2D6FF;
+  cursor: pointer;
+}
+
+.chat-history-alert{
+  color: red;
+}

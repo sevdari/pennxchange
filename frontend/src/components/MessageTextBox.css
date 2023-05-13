@@ -1,0 +1,25 @@
+.form-control{
+  background-color: #F8F8F8;
+  width: 90%;
+}
+
+.form-control:focus{
+  background-color: #F8F8F8;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button-container .btn{
+  height: 50%;
+  border-radius: 50%;
+}
+
+.button-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}

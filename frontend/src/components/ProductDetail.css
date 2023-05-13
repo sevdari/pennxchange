@@ -1,0 +1,68 @@
+/* let image and description vertically center aligned */
+#row-product-detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/* carousel styles */
+#carouselWrapper {
+    max-height: 360px;
+    width: auto;
+    margin: auto;
+    object-fit: contain;
+    position: relative;
+    color: gray;
+    /* hidden image if overflow, but display it centered */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* let control still visible when background is white */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* style of post date section */
+#div-postDate {
+    text-align: right;
+    color: gray;
+}
+
+/* styles of product detail on the right side */
+#card-product-detail {
+    height: 100%;
+    width: 100%;
+    border: 0px;
+    /* description not too long */
+    padding-right: 20%;
+}
+
+#card-title-product-detail {
+    font-weight: bold;
+}
+
+#card-subtitle-product-detail {
+    font-family: 'Courier', monospace;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.card-text-product-detail > strong {
+    font-size: larger;
+}
+
+.contact-and-wishlist-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.addToWishlistButton {
+    margin-left: 10px;
+    padding: 10px;
+}

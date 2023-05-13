@@ -1,0 +1,12 @@
+.information-main p{
+  text-align: left;
+}
+
+.information-main{
+  display: flex;
+  flex-direction: column;
+}
+
+.information-main *{
+  margin-bottom: 10px;
+}
